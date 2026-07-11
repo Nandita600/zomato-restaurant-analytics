@@ -52,24 +52,6 @@ python download_data.py         # pulls that project's dataset via the Kaggle AP
 jupyter notebook analysis.ipynb # read the analysis
 streamlit run app.py            # or launch the interactive dashboard
 ```
-(Project 5 has one extra ETL step — see its own README.)
-
-## The 5 projects
-
-| # | Project | Difficulty | Est. time | Best for |
-|---|---------|-----------|-----------|---------|
-| 1 | [Zomato Restaurant Analysis](./01-zomato-restaurant-analysis) | ⭐⭐ Beginner | 2-3 weeks | First portfolio project, EDA fundamentals |
-| 2 | [Flipkart Price Analysis](./02-flipkart-price-analysis) | ⭐⭐⭐ Intermediate | 2-3 weeks | Pricing strategy, business acumen |
-| 3 | [Supply Chain & Inventory Analysis](./03-supply-chain-analysis) | ⭐⭐⭐ Intermediate | 3-4 weeks | Operations focus, supply chain optimization |
-| 4 | [FIFA Player Performance Analysis](./04-fifa-player-analysis) | ⭐⭐⭐⭐ Intermediate-Advanced | 3-4 weeks | Clustering, multivariate analysis, ML intro |
-| 5 | [Olist E-Commerce Dashboard](./05-olist-ecommerce-dashboard) | ⭐⭐⭐⭐ Advanced | 4-6 weeks | Complete DA workflow, capstone / interview showcase |
-
-## Suggested learning path
-**Zomato** (EDA fundamentals) → **Flipkart** (pricing, SQL percentiles/window functions) →
-**Supply Chain** (operations, a differentiator most DA portfolios skip) → **FIFA** (your first
-clustering/ML project) → **Olist** (capstone: multi-table ETL, cohort retention, full dashboard).
-
-Each project's difficulty and time estimate assumes you've completed the ones before it.
 
 ## A findings, not just a chart tour
 Every project's README states its *actual* findings, including the ones that complicate a tidy
